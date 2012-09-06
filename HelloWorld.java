@@ -15,9 +15,9 @@ public class HelloWorld {
 		System.out.println("This is getting silly");
 
 		for (a=0;a<10;a++) {
-			p.setz(a);
 			b=p.getz();
 			System.out.println("Crazy man " + a + " " + b);
+			p.setz(10-a);
 		}
 	}
 }

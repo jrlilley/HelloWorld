@@ -1,8 +1,8 @@
 public class Pointless {
 	private int z;
 
-	public void Pointless () {
-		z=1;
+	public Pointless () {
+		z=100;
 	}
 
 	public int getz() {
