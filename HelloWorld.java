@@ -1,14 +1,12 @@
+
+
+
 public class HelloWorld {
 
-	private int z;
-
-	public void HelloWorld () {
-		z = 1;
-	}
-
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		
-		int a;
+		int a,b;
+		Pointless p = new Pointless();
 
 		System.out.println("Hello World!");
 		System.out.println("This is a silly test for git");
@@ -17,7 +15,9 @@ public class HelloWorld {
 		System.out.println("This is getting silly");
 
 		for (a=0;a<10;a++) {
-			System.out.println("Crazy man " + a);
+			p.setz(a);
+			b=p.getz();
+			System.out.println("Crazy man " + a + " " + b);
 		}
 	}
 }
