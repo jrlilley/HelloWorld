@@ -1,4 +1,11 @@
 public class HelloWorld {
+
+	private int z;
+
+	public void HelloWorld () {
+		z = 1;
+	}
+
 	public static void main(String[] args) {
 		
 		int a;
